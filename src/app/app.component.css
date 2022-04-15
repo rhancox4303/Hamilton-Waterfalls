@@ -1,0 +1,39 @@
+app-root {
+    height: 100%;
+    width: 100%;
+  }
+  h1{
+      margin: 0;
+      margin-left: 1%;
+  }
+  h3{
+      text-align: center;
+  }
+  header{
+    margin: 0;
+    color: white;
+    background-color: black;
+}
+
+.scrollable{
+    max-height: 500px;
+    min-height: 500px;
+    overflow-y: visible;
+}
+html, body, .row, .container-fluid, .col-sm-8 {
+
+    height: 94vh;
+    margin: 0;
+    padding: 0;
+}
+button, input{
+    margin-top: 2%;
+    width: 100%;
+    font-size: 15px;
+
+    }
+google-map{
+    float: right;
+    height: 100%;
+    width:100%;
+}
